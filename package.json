@@ -1,0 +1,28 @@
+{
+  "name": "zogra",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "keywords": [],
+  "author": "acro5piano <ketsume0211@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist/*.js",
+    "dist/*.map",
+    "dist/*.ts",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gqtx": "^0.9.3",
+    "graphql-scalars": "^1.23.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
