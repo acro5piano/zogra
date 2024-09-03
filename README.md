@@ -1,0 +1,2 @@
+# zogra
+Zod + GraphQL
