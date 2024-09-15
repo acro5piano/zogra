@@ -17,7 +17,7 @@ pnpm add zogra graphql
 yarn add zogra graphql
 
 # Bun
-yarn add zogra graphql
+bun add zogra graphql
 ```
 
 # Usage
