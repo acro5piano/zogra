@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      gqtx:
-        specifier: ^0.9.3
-        version: 0.9.3(graphql@16.9.0)
+      graphql:
+        specifier: ^16.9.0
+        version: 16.9.0
       graphql-scalars:
         specifier: ^1.23.0
         version: 1.23.0(graphql@16.9.0)
@@ -23,11 +23,6 @@ importers:
         version: 5.5.4
 
 packages:
-
-  gqtx@0.9.3:
-    resolution: {integrity: sha512-LQii9isCdtVuUg1RC9wJy1L8o8bWEgubs2yQ/+INnvenqUxjTb/5rObmreDT2fxe07CTCaufPy64JYg1bcoT4g==}
-    peerDependencies:
-      graphql: ^16.7.0
 
   graphql-scalars@1.23.0:
     resolution: {integrity: sha512-YTRNcwitkn8CqYcleKOx9IvedA8JIERn8BRq21nlKgOr4NEcTaWEG0sT+H92eF3ALTFbPgsqfft4cw+MGgv0Gg==}
@@ -51,10 +46,6 @@ packages:
     resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
 
 snapshots:
-
-  gqtx@0.9.3(graphql@16.9.0):
-    dependencies:
-      graphql: 16.9.0
 
   graphql-scalars@1.23.0(graphql@16.9.0):
     dependencies:
