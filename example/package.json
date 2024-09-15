@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esbuild-register ./src/main.ts"
+  },
+  "keywords": [],
+  "author": "acro5piano <ketsume0211@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.23.1",
+    "esbuild-register": "^3.6.0",
+    "graphql": "^16.9.0"
+  },
+  "devDependencies": {
+    "graphql-yoga": "^5.7.0",
+    "typescript": "^5.6.2"
+  }
+}
