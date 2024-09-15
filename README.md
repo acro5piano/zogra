@@ -1,6 +1,6 @@
 # zogra
 
-Zod + GraphQL
+Zogra: Seamlessly Integrate Zod and GraphQL for Type-Safe APIs.
 
 # Installation
 
