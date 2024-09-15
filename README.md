@@ -2,6 +2,26 @@
 
 Zod + GraphQL
 
+# Installation
+
+Install using the dependency manager of your choice.
+
+```bash
+# npm
+npm install --save zogra graphql
+
+# pnpm
+pnpm add zogra graphql
+
+# Yarn
+yarn add zogra graphql
+
+# Bun
+yarn add zogra graphql
+```
+
+# Usage
+
 ```typescript
 import { Gql, buildGraphQLSchema } from '../dist'
 import { z } from 'zod'
