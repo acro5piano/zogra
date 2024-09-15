@@ -1,8 +1,3 @@
-# zogra
-
-Zod + GraphQL
-
-```typescript
 import { Gql, buildGraphQLSchema } from '../dist'
 import { z } from 'zod'
 
@@ -49,28 +44,6 @@ const Query = Gql.Query(() => ({
   },
 }))
 
-export const schema = buildGraphQLSchema({
+const schema = buildGraphQLSchema({
   query: Query,
 })
-```
-
-### Use your favorite server option to serve the schema!
-
-```typescript
-import { createServer } from 'node:http'
-import { createYoga } from 'graphql-yoga'
-import { schema } from './schema'
-
-const yoga = createYoga({ schema })
-
-const server = createServer(yoga)
-
-// Start the server and you're done!
-server.listen(4000, () => {
-  console.info('Server is running on http://localhost:4000/graphql')
-})
-```
-
-# Special Thanks
-
-[gqtx](https://github.com/sikanhe/gqtx) and [tRPC](https://trpc.io) heavily inspired this library.
